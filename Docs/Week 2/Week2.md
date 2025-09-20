@@ -19,12 +19,14 @@ Since this was the first hands-on experience with STM32 hardware, our group init
 ```C
 HAL_GPIO_TogglePin (GPIOB, GPIO_PIN_0); //Toggle a GPIO pin via HAL
 BSP_LED_Toggle(LED_RED); //Toggle a predefined pin using BSP
+```
 
 ### UART
 
 ```C
 uint8_t Test[] = "Hello World !!!\n\n"; //Data to send
 HAL_UART_Transmit(&huart3,Test,strlen((char*)Test),10);// Sending in normal mode
+```
 
 ### LED and UART together
 
@@ -54,6 +56,7 @@ HAL_UART_Transmit(&huart3,Test,strlen((char*)Test),10);// Sending in normal mode
 	  HAL_Delay(1000);
   }
   /* USER CODE END 3 */
+```
     
 ## Results
 By the end of this week, we were able to control an LED on the board, as well as send text over UART to a terminal.
