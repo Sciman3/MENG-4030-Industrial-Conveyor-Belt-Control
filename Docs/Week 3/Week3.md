@@ -14,3 +14,9 @@ This week’s work was primarily involved in understanding the I<sup>2</sup>C an
     
 ## Results
 By the end of this week, we have the framework for interacting with the accelerometer over I<sup>2</sup>C, however so far we have been unsuccessful in retrieving data from the sensor.
+
+## References
+
+- https://github.com/DFRobot/DFRobot_ADXL345/blob/main/DFRobot_ADXL345.h
+- https://blog.embeddedexpert.io/?p=1298
+- https://community.st.com/t5/stm32-mcus-products/i-don-t-understand-how-to-use-the-hal-i2c-master-transmit/td-p/582824
