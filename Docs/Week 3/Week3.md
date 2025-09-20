@@ -10,9 +10,25 @@ This week’s work was primarily involved in understanding the I<sup>2</sup>C an
 
 ## Key Code
 
-- None
-    
+### Sending Data / Setting Registers
+```C
+REGISTER = DATA_FORMAT; //Defined elsewhere as HEX address for desired register
+DATA = 0x00; //Data to be written
+DATA_WRITE[0] = REGISTER; //Form an array with the address to write to, along with the data
+DATA_WRITE[1] = DATA;
+ret = HAL_I2C_Master_Transmit(&hi2c1,ADDR,DATA_WRITE,2,HAL_MAX_DELAY); //Send data over I2C with maximum HAL timeout
+```
+
+### Recieving Data
+
+```C
+REGISTER = DATA_X0; //Set address of read start address
+uint8_t RAWACCEL[6]; //Create buffer to hold read data
+HAL_I2C_Mem_Read(&hi2c1, ADDR, DATA_X0, I2C_MEMADD_SIZE_8BIT, RAWACCEL, 6, HAL_MAX_DELAY); //Read 6 bytes starting at address.
+```
+
 ## Results
+
 By the end of this week, we have the framework for interacting with the accelerometer over I<sup>2</sup>C, however so far we have been unsuccessful in retrieving data from the sensor.
 
 ## References
