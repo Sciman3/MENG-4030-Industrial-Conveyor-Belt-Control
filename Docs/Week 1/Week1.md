@@ -15,4 +15,4 @@ During the first week, our group focused on setting up the development environme
 ## Results
 By the end of this week, we had our project defined, our board selected, and were set up to begin exploring the software and programming the hardware.
 
-![Image of STM32 board, from https://www.st.com/en/evaluation-tools/nucleo-h753zi.html](https://github.com/Sciman3/MENG-4030-Industrial-Conveyor-Belt-Control/blob/47d998b4557f9fac71b9e6cb6ef74eb566dd7bd7/Results/Week%202/SerialData_LED.gif)
+![Image of STM32 board, from https://www.st.com/en/evaluation-tools/nucleo-h753zi.html](https://github.com/Sciman3/MENG-4030-Industrial-Conveyor-Belt-Control/blob/8f92b991f0a001da511bbb02ae1e9b93accd8102/Results/Week%201/STM32Nucleo.jpg=224x395)
