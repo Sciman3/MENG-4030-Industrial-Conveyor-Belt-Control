@@ -36,3 +36,6 @@ By the end of this week, we have the framework for interacting with the accelero
 - https://github.com/DFRobot/DFRobot_ADXL345/blob/main/DFRobot_ADXL345.h
 - https://blog.embeddedexpert.io/?p=1298
 - https://community.st.com/t5/stm32-mcus-products/i-don-t-understand-how-to-use-the-hal-i2c-master-transmit/td-p/582824
+- https://www.st.com/resource/en/user_manual/dm00499160.pdf
+- https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf
+- https://os.mbed.com/platforms/ST-Nucleo-H743ZI2/
