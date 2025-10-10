@@ -65,14 +65,14 @@ osThreadId_t contTaskHandleHandle;
 const osThreadAttr_t contTaskHandle_attributes = {
   .name = "contTaskHandle",
   .stack_size = 128 * 4,
-  .priority = (osPriority_t) osPriorityNormal1,
+  .priority = (osPriority_t) osPriorityLow1,
 };
 /* Definitions for actuatorTaskH */
 osThreadId_t actuatorTaskHHandle;
 const osThreadAttr_t actuatorTaskH_attributes = {
   .name = "actuatorTaskH",
   .stack_size = 128 * 4,
-  .priority = (osPriority_t) osPriorityNormal2,
+  .priority = (osPriority_t) osPriorityLow2,
 };
 /* USER CODE BEGIN PV */
 uint8_t ADXL_Bytes [1];
