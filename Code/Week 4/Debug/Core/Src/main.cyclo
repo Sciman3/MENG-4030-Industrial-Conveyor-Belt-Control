@@ -1,0 +1,15 @@
+../Core/Src/main.c:107:6:INIT_Accel	1
+../Core/Src/main.c:126:6:ACC_ReadAccel	1
+../Core/Src/main.c:155:6:sim_Act_Output	2
+../Core/Src/main.c:164:6:traceTaskSwitch	1
+../Core/Src/main.c:176:5:main	1
+../Core/Src/main.c:269:6:SystemClock_Config	4
+../Core/Src/main.c:320:13:MX_I2C1_Init	4
+../Core/Src/main.c:368:13:MX_USART3_UART_Init	5
+../Core/Src/main.c:414:13:MX_DMA_Init	1
+../Core/Src/main.c:435:13:MX_GPIO_Init	1
+../Core/Src/main.c:485:6:sensorReadTask	1
+../Core/Src/main.c:510:6:contTask	4
+../Core/Src/main.c:539:6:actuatorTask	1
+../Core/Src/main.c:559:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/main.c:577:6:Error_Handler	1
