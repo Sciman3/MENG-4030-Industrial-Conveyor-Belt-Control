@@ -1,5 +1,6 @@
 #Mac files and Warp
 .DS_Store
+#Exclude Warp helper file
 WARP.md
 
 # Prerequisites
@@ -57,3 +58,6 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+#Mac Files
+.DS_Store
